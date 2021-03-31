@@ -1,10 +1,11 @@
 import React from 'react'
+import { Text } from "@fluentui/react";
 
 const HelloWorld = ({id, start, end} : {id: string, start: string, end: string}) => {
     return (
-        <h1 id={id}>
+        <Text id={id} variant="mega">
             {start} <span>{end}</span>
-        </h1>
+        </Text>
     )
 }
 

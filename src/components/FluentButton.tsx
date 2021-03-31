@@ -7,7 +7,7 @@ const FluentButton = ({content} : {content: string}) => {
         <PrimaryButton
         onClick={() => alert("Hello, World!")}
         >
-            {content}
+        {content}
         </PrimaryButton>
     )
 }
